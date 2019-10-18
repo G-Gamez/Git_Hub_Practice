@@ -16,4 +16,15 @@
         app:layout_constraintTop_toTopOf="parent"
         android:id="@+id/centerText"/>
 
+    <Button
+        android:id="@+id/gamezButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="124dp"
+        android:onClick="gamezButtonPress"
+        android:text="Who is the best?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
