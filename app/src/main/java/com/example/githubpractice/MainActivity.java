@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
     public void textSwitch (View view){
         TextView t1 = findViewById(R.id.E_TextView1);
         Button b1 = findViewById(R.id.E_button);
