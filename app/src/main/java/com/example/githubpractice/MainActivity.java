@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+
 import android.widget.Button;
+
 import android.widget.TextView;
 import android.widget.EditText;
 
@@ -34,6 +36,12 @@ public class MainActivity extends AppCompatActivity {
         textView.setText("Hello " + namedEditText.getText().toString());
     }
 
+    public void brtx(View view){
+        TextView bx = findViewById(R.id.bruhText);
+        bx.setVisibility(View.VISIBLE);
+}
+
+
     public void gamezButtonPress (View view){
         TextView textView = findViewById(R.id.centerText);
         final String[] githubUsers = {"Edwin", "Logan", "Kevin", "Gamez"};
@@ -50,5 +58,6 @@ public class MainActivity extends AppCompatActivity {
         EditText E1 = findViewById(R.id.E_entry);
 
         t1.setText(E1.getText().toString());
+
     }
 }
