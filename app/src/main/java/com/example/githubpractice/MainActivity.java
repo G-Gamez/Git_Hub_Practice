@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void brtx(){
+    public void brtx(View view){
         TextView bx = findViewById(R.id.bruhText);
         bx.setVisibility(View.VISIBLE);
     }
