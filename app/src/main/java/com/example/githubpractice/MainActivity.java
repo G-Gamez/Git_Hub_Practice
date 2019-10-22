@@ -16,12 +16,5 @@ public class MainActivity extends AppCompatActivity {
     public void brtx(View view){
         TextView brtx = findViewById(R.id.bruhText);
         brtx.setVisibility(view.VISIBLE);
-
-
-
-
-
-
-
     }
 }
