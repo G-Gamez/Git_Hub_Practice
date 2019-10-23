@@ -51,4 +51,9 @@ public class MainActivity extends AppCompatActivity {
 
         t1.setText(E1.getText().toString());
     }
+
+    public void brtx(View view){
+        TextView brtx = findViewById(R.id.bruhText);
+        brtx.setVisibility(view.VISIBLE);
+    }
 }

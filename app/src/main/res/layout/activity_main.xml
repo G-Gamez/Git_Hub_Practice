@@ -107,4 +107,24 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.14" />
 
+    <Button
+        android:id="@+id/bruhButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bruh"
+        android:onClick="brtx"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/bruhText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:text="Bruh"
+        app:layout_constraintBottom_toTopOf="@+id/bruhButton"
+        app:layout_constraintEnd_toEndOf="@+id/bruhButton"
+        tools:layout_editor_absoluteX="37dp"
+        android:visibility="invisible"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
