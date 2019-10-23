@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/bruhButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -32,10 +32,10 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="44dp"
         android:text="BRUH"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/bruhButton"
+        app:layout_constraintEnd_toEndOf="@+id/bruhButton"
         app:layout_constraintHorizontal_bias="0.47"
-        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintStart_toStartOf="@+id/bruhButton"
         android:visibility="invisible"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
